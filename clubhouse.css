@@ -14,3 +14,24 @@ h2{
 .xyz{
   font-family: 'Space Grotesk', sans-serif;
 }
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImg {
+  
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  display: none;
+
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+.rss.opacity { 
+  filter: invert(76%) sepia(30%) saturate(3461%) hue-rotate(321deg) brightness(98%) contrast(91%);
+  width: 100%;
+}
